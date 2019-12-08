@@ -29,16 +29,22 @@ body {
 }
 
 *, *:before, *:after {
- -moz-box-sizing: border-box;
- -webkit-box-sizing: border-box;
+
  box-sizing: border-box;
 }
 
 
 form {
- max-width: 320px;
- margin: 5px auto;
+ 
+ margin: 0 auto;
 
+}
+.contact {
+ border-bottom: 2px solid black;
+
+ margin: 0 10px;
+
+}
 }
 
 h1 {
@@ -47,7 +53,7 @@ h1 {
 }
 
 input[type="text"],
-
+input[type="tel"],
 input[type="date"],
 input[type="datetime"],
 input[type="email"],
@@ -84,23 +90,28 @@ select {
  border-radius: 2px;
 }
 
+.newsletter {
+ padding-top: 20px;
+}
 button {
- padding: 19px 39px 18px 39px;
+ 
  color: #FFF;
  background-color: #4bc970;
  font-size: 18px;
  text-align: center;
+ align-items: center;
  font-style: normal;
  border-radius: 5px;
- width: 100%;
+ width: 90%;
  border: 1px solid #3ac162;
  border-width: 1px 1px 3px;
  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
- margin-bottom: 10px;
+ margin-bottom: 100px;
 }
 
 fieldset {
  margin-bottom: 30px;
+ 
  border: none;
 }
 
@@ -108,6 +119,7 @@ legend {
  font-size: 1.2em;
  font-weight: bold;
  margin-bottom: 15px;
+ 
 }
 
 label {
@@ -116,7 +128,7 @@ label {
  font-size: 14px;
 }
 
-label.light {
+label.format {
  font-weight: 300;
  display: inline;
 }
