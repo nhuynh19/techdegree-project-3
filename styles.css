@@ -15,7 +15,7 @@ body {
 
 header {
  	color: white;
- 	background-color: #213141;
+ 	background-image: linear-gradient(#d3944b, firebrick);
  	padding: 10px 0;
  	text-align: center;
 }
@@ -133,6 +133,9 @@ footer {
   Media queries
 --------------------------- */
 @media (min-width: 768px) {
+	body {
+		max-width: 1024px;
+	}
   .intro,
   form {
     max-width: 60%;
@@ -153,7 +156,7 @@ footer {
     
   }
   .zipcode {
-    width: 27%;
+    width: 26.8%;
   }
   #zipcode {
     width: 35%;
