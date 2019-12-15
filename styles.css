@@ -148,13 +148,13 @@ footer {
     justify-content: left ;
   }
   label {
-    width: 40%;
+    width: 45%;
     padding-top: 15px;
-    margin-right: 23px;
+    margin-right: 20px;
     
   }
   .zipcode {
-    width: 27%;
+				width: 29%;
   }
   #zipcode {
     width: 35%;
