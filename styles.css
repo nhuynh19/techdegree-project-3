@@ -133,9 +133,7 @@ footer {
   Media queries
 --------------------------- */
 @media (min-width: 768px) {
-	body {
-		max-width: 1024px;
-	}
+	
   .intro,
   form {
     max-width: 60%;
@@ -152,11 +150,11 @@ footer {
   label {
     width: 40%;
     padding-top: 15px;
-    margin-right: 25px;
+    margin-right: 23px;
     
   }
   .zipcode {
-    width: 26.8%;
+    width: 27%;
   }
   #zipcode {
     width: 35%;
